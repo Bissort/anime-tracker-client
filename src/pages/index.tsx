@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import styled from 'styled-components'
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -12,9 +13,9 @@ export default function Home() {
 			</Head>
 
 			<main className={styles.main}>
-				<h1 className={styles.title}>
+				<Title>
 					Welcome to <a href="https://nextjs.org">Next.js!</a>
-				</h1>
+				</Title>
 
 				<p className={styles.description}>
 					Get started by editing{' '}
@@ -67,3 +68,9 @@ export default function Home() {
 		</div>
 	)
 }
+
+const Title = styled.h1`
+	color: blue;
+	font-weight: bold;
+	font-size: 48px;
+`
