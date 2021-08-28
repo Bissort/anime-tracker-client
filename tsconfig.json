@@ -19,7 +19,7 @@
 		"**/*.ts",
 		"**/*.tsx",
 		"jest.config.js",
-		"src/__test__/pages/index.test.js"
+		"src/__test__/pages/index.test.ts"
 	],
 	"exclude": ["node_modules"]
 }
