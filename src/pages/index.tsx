@@ -70,7 +70,7 @@ export default function Home() {
 }
 
 const Title = styled.h1`
-  color: blue;
+  color: red;
   font-weight: bold;
   font-size: 48px;
 `;
